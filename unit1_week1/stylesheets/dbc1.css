@@ -1,5 +1,7 @@
 body{
-	color:blue;
 	font-size: 16;
 	font-family: sans-serif;
+}
+.chorus{
+	color: red;
 }
