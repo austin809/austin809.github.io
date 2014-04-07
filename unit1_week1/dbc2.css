@@ -5,15 +5,15 @@
 #header{
 	height: 70px;
 	width: 75%;
-	position: absolute;
+	position: top;
 }
 #sidebar{
 	width: 100px;
 	float: left;
-	padding-right: 100px;
+	margin: 10px;
 }
 #content{
-	padding: 100px;
-
+	margin: 10px;
+	padding 10px;
 	border: 4px dotted #000000;
 }
