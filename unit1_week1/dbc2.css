@@ -1,4 +1,11 @@
 .chorus{
 	color: red;
-	font-size: 500%;
+	font-size: 100%;
+}
+#content{
+	padding: 10px;
+	border: 4px dotted #000000;
+}
+#sidebar{
+	float: left;
 }
