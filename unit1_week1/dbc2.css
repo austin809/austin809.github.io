@@ -8,12 +8,13 @@
 	position: absolute;
 }
 #sidebar{
-	width: 100px;
+	width: 30px;
 	float: left;
 	margin: 10px;
 }
 #content{
 	margin: 10px;
+
 	border: 4px dotted #000000;
 
 }
