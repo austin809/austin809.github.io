@@ -2,19 +2,38 @@
 	color: red;
 	font-size: 100%;
 }
+#header, #sidebar{
+	border: 3px dashed;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
 #header{
-	height: 70px;
-	width: 75%;
+	top: 10px;
+	height: 60px;
+	width: 90%;
 	position: absolute;
 }
+
 #sidebar{
-	width: 30px;
+	height: 80%;
+	width: 60px;
+	margin-top: auto;
+	margin-bottom: auto;
 	float: left;
-	margin: 10px;
 }
-#content{
-	margin: 10px;
 
-	border: 4px dotted #000000;
-
+#footer{
+	top: 10px;
+	width: 80%;
+	border: 3px dashed;
+	padding: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
 }
