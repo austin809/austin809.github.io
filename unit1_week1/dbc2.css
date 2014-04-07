@@ -1,9 +1,7 @@
 #header, #sidebar{
-	border: 3px dashed;
+	border: 3px solid;
 	font-size: 10px;
-	font-weight: bold;
 	text-align: center;
-	text-transform: uppercase;
 }
 
 #header{
@@ -24,7 +22,7 @@
 #footer{
 	top: 10px;
 	width: 80%;
-	border: 3px dashed;
+	border: 3px solid;
 	padding: 5px;
 	font-weight: bold;
 	text-transform: uppercase;
