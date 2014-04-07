@@ -43,3 +43,8 @@
 	margin-right: auto;
 	float: none;
 }
+
+a:link{color: red};
+a:visited{color: yellow};
+a:hover{color: yellow;}
+a:active{color: red;}
