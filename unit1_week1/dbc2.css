@@ -2,12 +2,17 @@
 	color: red;
 	font-size: 100%;
 }
-#content{
-	margin: auto;
-	border: 4px dotted #000000;
+#header{
+	height: 60px;
+	width: 75%;
+	position: absolute;
 }
 #sidebar{
 	width: 75px;
 	float: left;
 	padding-right: 10px;
+}
+#content{
+	margin: auto;
+	border: 4px dotted #000000;
 }
