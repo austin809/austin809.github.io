@@ -3,16 +3,17 @@
 	font-size: 100%;
 }
 #header{
-	height: 60px;
+	height: 70px;
 	width: 75%;
 	position: absolute;
 }
 #sidebar{
-	width: 75px;
+	width: 100px;
 	float: left;
 	padding-right: 100px;
 }
 #content{
-	margin: 100 px;
+	margin: 100px;
+	padding: 100px;
 	border: 4px dotted #000000;
 }
