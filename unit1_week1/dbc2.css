@@ -44,6 +44,11 @@
 	float: none;
 }
 
+#deadmau5{
+	max-height: 150px;
+	max-width: 200px;
+}
+
 a:link{color: #3224ff;}
 a:visited{color: black;}
 a:hover{color: brown;}
