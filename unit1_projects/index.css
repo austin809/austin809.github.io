@@ -31,7 +31,6 @@ body{
 }
 #headertable{
 	width: 90%;
-	border: solid 1em yellow;
 }
 
 #headertable #bio, #headertable #contact {
