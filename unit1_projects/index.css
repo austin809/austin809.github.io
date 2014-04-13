@@ -1,35 +1,37 @@
-#header{
-	position: absolute;
-	height: 25%
-}
-
-#files, #picture, #blog {
-	float: left;
-	width: 30%;
-	margin: 15px;
-	height: 70%;
-}
-
-#files {
-	border: solid;
+table {
+	border-spacing: 3em;
 	text-align: center;
 }
-
-#blog {
-	position: absolute;
-	border: solid;
-	text-align: center;
-	right: 0px;
-}
-
-#files h4, #blog h4 { 
-display: inline; 
-padding: 10px;
-} 
-
-
-#picture h3{
+section{
+	height: auto;
 	width: 75%;
-	height: 95%;
-	background-image: url(http://www.triageconsulting.com/sites/default/files/staff/photo_AustinBourdier.jpg);
+	}
+
+tr{
+	padding: 3em;
+}
+section td{
+	padding: 1em;
+	background-color: #6699FF;
+	box-shadow: .5em .5em .5em .5em yellow;
+	border-radius: 10%;
+}
+
+h3, p {
+	border-radius: 5%;
+}
+body{
+	background-color: #99FF99;
+	font-family: 'Patrick Hand SC', cursive;
+}
+#pic{
+	width: 75%;
+	border-radius: 60%;
+	border: dashed .5em;
+}
+#headertable{
+	width: 90%;
+}
+#headertable td{
+	width: 30%
 }
