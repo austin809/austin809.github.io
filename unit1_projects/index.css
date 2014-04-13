@@ -1,0 +1,35 @@
+#header{
+	position: absolute;
+	height: 25%
+}
+
+#files, #picture, #blog {
+	float: left;
+	width: 30%;
+	margin: 15px;
+	height: 70%;
+}
+
+#files {
+	border: solid;
+	text-align: center;
+}
+
+#blog {
+	position: absolute;
+	border: solid;
+	text-align: center;
+	right: 0px;
+}
+
+#files h4, #blog h4 { 
+display: inline; 
+padding: 10px;
+} 
+
+
+#picture h3{
+	width: 75%;
+	height: 95%;
+	background-image: url(http://www.triageconsulting.com/sites/default/files/staff/photo_AustinBourdier.jpg);
+}
