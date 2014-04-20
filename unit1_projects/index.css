@@ -12,7 +12,7 @@ tr{
 }
 section td{
 	padding: 0em;
-	background-color: red;
+	background-color: #6699FF;
 	border: solid 1em yellow;
 	border-radius: 20%;
 }
