@@ -1,0 +1,177 @@
+table {
+	border-spacing: 3em;
+	text-align: center;
+}
+section{
+	height: auto;
+	width: 75%;
+	text-align: center;
+	}
+
+tr{
+	padding: 3em;
+	text-align: center;
+}
+section td{
+	padding: 0em;
+	background-color: #FFAA00;
+/*	border: solid 1em #FFBF40;*/
+	border-radius: 20%;
+	text-align: center;
+}
+
+body{
+	background-color: #BF8F30;
+	font-family: 'Patrick Hand SC', cursive;
+	text-align: center;
+
+}
+#pic{
+	width: 100%;
+	border-radius: 20%;
+/*	border: solid 1em #FFBF40;*/
+	min-width: 80px;
+	min-height: 120px;
+	text-align: center;
+}
+#headertable{
+	width: 90%;
+	text-align: center;
+}
+
+#headertable #bio, #headertable #contact {
+	border-radius: 20%;
+	background-color: #FFAA00;
+/*	border: solid 1em #FFBF40;*/
+	text-align: center;
+}
+
+#headertable td{
+	width: 30%;
+	text-align: center;
+}
+h2, h3 {
+	margin-top: 0em;
+	padding-top: 0em;
+	top: 0px;
+	text-align: center;
+}
+li {
+	text-align: left;
+}
+p{
+	padding: 0em 1em;
+	text-align: center;
+}
+
+#intro {
+	top: 4em;
+	text-align: left;
+	position: absolute;
+	left: 25%;
+}
+
+#intro p{
+	text-align: left;
+	left: 0%;
+}
+
+#bio{
+	top: 4em;
+	left: 1em;
+	position: absolute;
+	background-color: #FFAA00;
+	text-align: center;
+	width: 20%;
+	border-radius: 20%;
+/*	border: solid 1em #FFBF40;*/
+}
+#piccell{
+	top: 20em;
+	left: 1em;
+	position: absolute;
+	text-align: center;
+	width: 20%;
+}
+#contact{
+	top: 4em;
+	right: 1em;
+	position: absolute;
+	background-color: #FFAA00;
+	text-align: center;
+	width: 20%;
+	border-radius: 20%;
+/*	border: solid 1em #FFBF40;*/
+}
+nav #p0u1, nav #p0u2, nav #p0u3{
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+}
+
+nav{
+	left: 25%;
+	right: 25%;
+	position: fixed;
+	z-index: 1;
+
+}
+nav ul ul{
+	display: none;
+}
+nav ul li:hover > ul{
+	display: block;
+	text-align: center;
+}
+
+nav ul {
+	width: 45%;
+	background: #FFAA00; 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: fixed;
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+	text-align: center;
+	
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+		text-align: center;
+	}
+
+nav ul ul {
+	background: #FFAA00;
+	border-radius: 0px; 
+	padding: 0;
+	position: absolute; 
+	top: 100%;
+	text-align: center;
+	width: 10em;
+}
+	nav ul ul li {
+		float: none; 
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+		text-align: center;
+
+	}
+		nav ul ul li a {
+			padding: 15px 40px;
+			color: black;
+			text-align: center;
+
+		}	
+			nav ul ul li a:hover {
+				/*background: #4b545f;*/
+				text-align: center;
+			}
+nav ul ul ul {
+	position: absolute; left: 100%; top:0;
+	text-align: center;
+	width: 10em;
+}
