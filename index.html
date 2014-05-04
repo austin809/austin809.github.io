@@ -60,11 +60,13 @@
 
 
 <div id = "main">
+<div id = "main_intro">
 <h1>Hello DBC!<br>My name is Austin</h1>
 Welcome to my website! My name is Austin, and over the course of the next several months I will be attending Dev Bootcamp, with the end goal of pursuing a career in web design. As a relative novice to the field, this will likely become more specific as I come to understand the industry.
 
-	<h1>Welcome to my blog!</h1>
-	<div id = "week1">
+	<h1>Welcome to my technical blog!</h1>
+	</div>
+	<div class = "week">
 	<h2>April 13, 2014 | Inline vs. Block Elements</h2>
 	<h3>One time a p tag and a span tag were waiting to checkout at the grocery store. The p tag seemed to be in a giant hurry, and tried to cut the span tag. The span tag said: "No cutting, get inline!" to which the p tag responded: "stop it! You can't block me!"</h3>
 
@@ -73,7 +75,7 @@ Welcome to my website! My name is Austin, and over the course of the next severa
 	</p>
 	</div>
 
-	<div id = "week2">
+	<div class = "week">
 	<h2>April 20, 2014 | The Rise of Javascript On the Internet</h2>
 	<h3>This week I'm looking deeper into why Javascript has rose to such prominence and importance in the web development world
 	</h3>
@@ -81,18 +83,18 @@ Welcome to my website! My name is Austin, and over the course of the next severa
 	<p><em>1. It's efficient and powerful!</em> It's not necessary for data to be pulled from a server for Javascript to be run, like standard HTML and CSS requires. Running this standard programming language is as simple as refreshing the web page you're on.</p>
 	<p><em>2. It's an object oriented language!</em> Because of this, we developers can manipulate it to access the individual HTML objects (tags) on a page. As I continue to use javascript going forward, and having a decent amount of back-end programming experience, I can see how this could become incredibly powerful.
 	</p>
-	<p><em>3. It's popularity and ubiquity</em> means that you're highly unlikely to run across browser that does not support its functionailty.</p>
+	<p><em>3. Javascript's popularity and ubiquity</em> means that you're highly unlikely to run across browser that does not support its functionailty.</p>
 	</div>
 
 
-	<div id = "week3">
+	<div class = "week">
 	<h2>April 24, 2014 | The Map Method</h2>
 	<h3>A look into it's use and syntax!</h3>
 
 	<p><em>The map method is, like most everything in Ruby, designed to simplify an otherwise lengthy program into a flexible and efficient tool.</em> When used correctly and on the appropriate object class, the map method returns the result of performing a specified function across all items within a given object. The method is enherently <em>non-destructive</em>, meaning it does not alter the original object passed to it. However, its "bang method" twin ("map!") is destructive, meaning that not only does calling map on a object return the result of mapping the object, but it also reassigns the value of that object.</p>
 	<p><em>Syntax.</em> Map Method syntax is <em>really</em> straightforward:</p>
 
-	<div id = "map_syntax">object.map{|x| x**2}<br>
+	<div class = "example">object.map{|x| x**2}<br>
 	<p>This is a basic structure of the map method. An array or hash object is passed to map, which applies the given function (in this case x-squared) upon each item stored within it. It then returns an array containing the newly-created values.</p>
 	<p>For example:</p>
 	<p>>>  [1,2,3,4,5,6,7,8,9,10].map{|x| x**2}<br>
@@ -101,6 +103,20 @@ Welcome to my website! My name is Austin, and over the course of the next severa
 
 	</div>
 	
+	</div>
+
+	<div class = "week">
+	<h2>May 2, 2014 | Classes and Variable Scope</h2>
+	<h3>An object-oriented hat trick!</h3>
+	<p>As a still novice developer, one of the most confusing subjects I've encountered has been the idea of scope. Specifically, how scope differs for global, class, and instance variables can be incredibly confusing. A variable's scope determines where in a program that variable is accessible.</p>
+	<p>A fellow cohort mate of mine, <a href = "scottjason/github.io">Mr. Scott Jason<a>, mentioned <a href ="http://www.quora.com/Object-Oriented-Programming/What-is-object-oriented-programming">an interview</a> where none other than Steve Jobs was asked to explain object-oriented programming in simple terms:</p><blockquote>Objects are like people. They're living, breathing things that have knowledge inside them about how to do things and have memory inside them so they can remember things. And rather than interacting with them at a very low level, you interact with them at a very high level of abstraction, like we're doing right here."</blockquote>
+	<p>Ruby is built as an object oriented language: it is set up in such a way so that classes and objects do much of the work. They contain values, perform functions, and return to you the value of these functions at the drop of a hat.</p>
+	<p>As a Ruby developer, it is therefore necessary to understand objects and their classes, and how they interact with certain variables. Below I provide examples of instance, class, and global variables in the context of a soccer team:</p>
+	<div class = "example">
+		<p>A soccer team is made up of 11 players. There are many attributes associated with a unique soccer team, and many associated specifically associated with the individual players. Furthermore, there are additional attributes associated with all soccer teams. Let's model this out in Ruby:</p>
+		<a href="http://s28.postimg.org/6xkeurmdp/soccer.png"><img src="unit1_projects/soccer.png" id = "soccer"></a>
+	</div>
+	<p>Certain variables we want to remain constant across all instances of the Chelsea class, such as the team's roster, mascot, and captain. We wouldn't want John Terry's and Petr Cech's captain to be different! Other variables need to be specific to the object being called. We couldn't have number be a class variable, or else every time a new Chelsea player was created, all member's of the team would have their number switched to this new player's number. Lastly, some variables, like the number of players on the pitch, aren't local to a particular class (not just Chelsea can have 11 men on the field!)</p>
 	</div>
 </div>
 
