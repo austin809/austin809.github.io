@@ -22,6 +22,12 @@ $(document).ready(function(){
 			return true
 		} else if ($("#r3c1").hasClass(test) && $("#r2c2").hasClass(test) && $("#r1c3").hasClass(test)){
 			return true
+		} else if (($("#r1c1").html().indexOf("div") != -1) && ($("#r1c2").html().indexOf("div") != -1) && 
+			($("#r1c3").html().indexOf("div") != -1) && ($("#r2c1").html().indexOf("div") != -1) && 
+			($("#r2c2").html().indexOf("div") != -1) && ($("#r2c3").html().indexOf("div") != -1) && 
+			($("#r3c1").html().indexOf("div") != -1) && ($("#r3c2").html().indexOf("div") != -1) && 
+			($("#r3c3").html().indexOf("div") != -1)){
+			return true
 		}
 	};
 	
