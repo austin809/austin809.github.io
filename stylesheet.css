@@ -1,0 +1,36 @@
+#board {
+	margin-left: auto; 
+	margin-right: auto;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	border-collapse: collapse;
+	background: #FF9700;
+	border-radius: .5em;
+}
+
+.column1, .column2 {
+	border-right: 1em #0C5AA6 solid;
+
+}
+
+.row1, .row2 {
+	border-bottom: 1em #0C5AA6 solid;
+}
+
+.piece{
+	font-size: 500%;
+	font-family: 'Sniglet';
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+td {
+	padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 33%;
+    width: 33%;    
+}
