@@ -4,7 +4,7 @@ $(document).ready(function(){
 	var projects = $("#projects");
 	var blog = $("#blog");
 	var contact = $("#contact");
-alert("passed");
+	alert("passed");
 
 	if (contact.hasClass("tabbed") == false){
 		alert("passed");
