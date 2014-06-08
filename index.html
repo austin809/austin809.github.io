@@ -1,164 +1,112 @@
 <!doctype html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="unit1_projects/index.css">
-<link href='http://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
+
+	<link href='http://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 <body>
-<nav>
-<ul>
-<li id = "p0u1">
-<h3><a href = "#">Unit 1</a></h3>
-<ul>
-<li><h5><a href = "#">Week 1</a></h5>
-<ul>
-	<li><a href="unit1_projects/dbc1.html">dbc1</a></li>
-	<li><a href="unit1_projects/dbc2.html">dbc2</a></li>
-	<li><a href="unit1_projects/blog.html">Favorite Websites</a></li>		
-	<li><a href="unit1_projects/wireframing.html">Wireframed Websites</a></li>
-</ul>
-</li>
-<li><h5><a href = "#">Week 2</a></h5>
-<ul>
-	<li><a href="unit1_projects/my_wireframe.html">This Site Wireframed</a></li>
-	<li><a href="unit1_projects/GPS1.1.html">GPS 1.1</a></li>
-	<li><a href="unit1_projects/week2_technical.html">Technical Blog</a></li>
-</ul></li>
-<li><h5><a href = "#">Week 3</a></h5>
-<ul>
-	<li><a href="unit1_projects/week2_technical.html">Technical Blog</a></li>
-	<li><a href="unit1_projects/week3_cultural_blog.html">Week 3 Cultural Blog</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li id = "p0u2">
-<h3><a href = "#">Unit 2</a></h3>
-<ul>
-<li><h5><a href = "#">Week 4</a></h5>
-<!-- <ul>
-	<li><a href="unit1_projects/dbc1.html">dbc1</a></li>
-	<li><a href="unit1_projects/dbc2.html">dbc2</a></li>
-	<li><a href="unit1_projects/blog.html">Favorite Websites</a></li>		
-	<li><a href="unit1_projects/wireframing.html">Wireframed Websites</a></li>
-</ul> -->
-</li>
-<li><h5><a href = "#">Week 5</a></h5></li>
-<li><h5><a href = "#">Week 6</a></h5></li>
-<ul>
-	<li><a href="unit1_projects/week6_cultural_blog.html">Week 6 Cultural Blog</a></li>
-</ul>
-</ul>
-</li>
-<li id = "p0u3">
-<h3><a href = "#">Unit 3</a></h3>
-<ul>
-<li><h5><a href = "#">Week 7</a></h5></li>
-<li><h5><a href = "#">Week 8</a></h5></li>
-<li><h5><a href = "#">Week 9</a></h5></li>
-</ul>
-</li>
-</ul>
-</nav>
-
-
-<div id = "main">
-<div id = "main_intro">
-<h1>Hello DBC!<br>My name is Austin</h1>
-Welcome to my website! My name is Austin, and over the course of the next several months I will be attending Dev Bootcamp, with the end goal of pursuing a career in web design. As a relative novice to the field, this will likely become more specific as I come to understand the industry.
-
-	<h1>Welcome to my technical blog!</h1>
-	</div>
-	<div class = "week">
-	<h2>April 13, 2014 | Inline vs. Block Elements</h2>
-	<h3>One time a p tag and a span tag were waiting to checkout at the grocery store. The p tag seemed to be in a giant hurry, and tried to cut the span tag. The span tag said: "No cutting, get inline!" to which the p tag responded: "stop it! You can't block me!"</h3>
-
-	<p>
-	Okay, painfully lame jokes aside, today's blog is all about the difference between inline and block elements. <a href = "http://www.htmlhelp.com/reference/html40/inline.html">Some elements</a> are inline - they naturaly integrate themselves with the elements around them, while <a href = "http://www.htmlhelp.com/reference/html40/block.html">others</a> are block elements -  they are separated out from the other items on the page nearby.
-	</p>
-	</div>
-
-	<div class = "week">
-	<h2>April 20, 2014 | The Rise of Javascript On the Internet</h2>
-	<h3>This week I'm looking deeper into why Javascript has rose to such prominence and importance in the web development world
-	</h3>
-
-	<p><em>1. It's efficient and powerful!</em> It's not necessary for data to be pulled from a server for Javascript to be run, like standard HTML and CSS requires. Running this standard programming language is as simple as refreshing the web page you're on.</p>
-	<p><em>2. It's an object oriented language!</em> Because of this, we developers can manipulate it to access the individual HTML objects (tags) on a page. As I continue to use javascript going forward, and having a decent amount of back-end programming experience, I can see how this could become incredibly powerful.
-	</p>
-	<p><em>3. Javascript's popularity and ubiquity</em> means that you're highly unlikely to run across browser that does not support its functionailty.</p>
-	</div>
-
-
-	<div class = "week">
-	<h2>April 24, 2014 | The Map Method</h2>
-	<h3>A look into it's use and syntax!</h3>
-
-	<p><em>The map method is, like most everything in Ruby, designed to simplify an otherwise lengthy program into a flexible and efficient tool.</em> When used correctly and on the appropriate object class, the map method returns the result of performing a specified function across all items within a given object. The method is enherently <em>non-destructive</em>, meaning it does not alter the original object passed to it. However, its "bang method" twin ("map!") is destructive, meaning that not only does calling map on a object return the result of mapping the object, but it also reassigns the value of that object.</p>
-	<p><em>Syntax.</em> Map Method syntax is <em>really</em> straightforward:</p>
-
-	<div class = "example">object.map{|x| x**2}<br>
-	<p>This is a basic structure of the map method. An array or hash object is passed to map, which applies the given function (in this case x-squared) upon each item stored within it. It then returns an array containing the newly-created values.</p>
-	<p>For example:</p>
-	<p>>>  [1,2,3,4,5,6,7,8,9,10].map{|x| x**2}<br>
-	=>  [1,4,9,16,25,36,49,64,81,100]
-	</p>
-
-	</div>
-	
-	</div>
-
-	<div class = "week">
-	<h2>May 2, 2014 | Classes and Variable Scope</h2>
-	<h3>An object-oriented hat trick!</h3>
-	<p>As a still novice developer, one of the most confusing subjects I've encountered has been the idea of scope. Specifically, how scope differs for global, class, and instance variables can be incredibly confusing. A variable's scope determines where in a program that variable is accessible.</p>
-	<p>A fellow cohort mate of mine, <a href = "scottjason/github.io">Mr. Scott Jason<a>, mentioned <a href ="http://www.quora.com/Object-Oriented-Programming/What-is-object-oriented-programming">an interview</a> where none other than Steve Jobs was asked to explain object-oriented programming in simple terms:</p><blockquote>Objects are like people. They're living, breathing things that have knowledge inside them about how to do things and have memory inside them so they can remember things. And rather than interacting with them at a very low level, you interact with them at a very high level of abstraction, like we're doing right here."</blockquote>
-	<p>Ruby is built as an object oriented language: it is set up in such a way so that classes and objects do much of the work. They contain values, perform functions, and return to you the value of these functions at the drop of a hat.</p>
-	<p>As a Ruby developer, it is therefore necessary to understand objects and their classes, and how they interact with certain variables. Below I provide examples of instance, class, and global variables in the context of a soccer team:</p>
-	<div class = "example">
-		<p>A soccer team is made up of 11 players. There are many attributes associated with a unique soccer team, and many associated specifically associated with the individual players. Furthermore, there are additional attributes associated with all soccer teams. Let's model this out in Ruby:</p>
-		<a href="http://s28.postimg.org/6xkeurmdp/soccer.png"><img src="unit1_projects/soccer.png" id = "ex_pic"></a>
-	</div>
-	<p>Certain variables we want to remain constant across all instances of the Chelsea class, such as the team's roster, mascot, and captain. We wouldn't want John Terry's and Petr Cech's captain to be different! Other variables need to be specific to the object being called. We couldn't have number be a class variable, or else every time a new Chelsea player was created, all member's of the team would have their number switched to this new player's number. Lastly, some variables, like the number of players on the pitch, aren't local to a particular class (not just Chelsea are limited to 11 men on the field!)</p>
-	</div>
-
-	<div class = "week">
-	<h2>May 7, 2014 | Functional vs Object-Oriented Programming</h2>
-	<h3>Comparing the paradigms through the Ruby perpective</h3>
-
-	<p>This week's blog seeks to describe two of the most common frameworks through which developers have styled their code through research and examples using the context of Ruby.</p>
-
-	<p>Functional programming borrows much from its name. It seeks to solve problems and create solutions through the computation of mathematical functions. These functions are meant to create output while relying solely on the input passed into the functions themselves. Functional programming avoids involving state or changeable data, once again relying solely on inputs given to the function to create the output.</p>
-
-	<div class = "example">Functional<br>
-	<a href="http://s29.postimg.org/5kghcssiv/functionalexample.png"><img src="unit1_projects/functionalexample.png" id = "ex_pic"></a>
-	</div>
-
-	<p>Object-oriented (or Imperative) programming seeks describe the world as an environment containing objects, each of which have individual or shared characteristics. These characteristics collectively compose the objects mutable state. Output is then created by returning the required values of individual properties of </p>
-
-	<div class = "example">OOP<br>
-	<a href="http://s16.postimg.org/jjaxzqifp/OOPexample.png"><img src="unit1_projects/OOPexample.png" id = "ex_pic"></a>
-	</div>
-	
-	</div>
-</div>
-<center>
-<div id = "bio"><h2>Basic Information</h2>
-	<ul>
-	<li>Full Name: <em>Austin Bourdier</em></li>
-	<li>Birthday: <em>February 26</em></li>
-	<li>Current Location: <em>San Francisco, CA</em></li>
-	<li>Hometown: <em>Oakland, CA</em></li>
-	<li>Education: <em>UC Berkeley</em></li>
+	<div id = "piccell"><img src="githubpic.jpg "id="pic"></div>
+	<ul id="tabs">
+  		<li><a href="#main_intro">Home</a></li>
+  		<li><a href="#projects">Personal Projects</a></li>
+  		<li><a href="#blog">Blog</a></li>
+  		<li><a href="#contact">Contact</a></li>
 	</ul>
-</div>
-<div id = "piccell"><img src="unit1_projects/githubpic.jpg "id="pic"/>
-</div>
-<div id = "contact"><h2>Contacts</h2>
-	<a href="https://www.facebook.com/austin.bourdier"><img src ="unit1_projects/fb.png" width="50px" height="50px"></a>
-	<a href="https://github.com/austin809"><img src ="unit1_projects/github.png" width="50px" height="50px"></a>
-	<a href="https://twitter.com/AustinBourdier"><img src ="unit1_projects/twitter.png" width="50px" height="50px"></a>
-	<a href="https://www.linkedin.com/profile/view?id=318778454&trk=nav_responsive_tab_profile"><img src ="unit1_projects/linkedin.png" width="50px" height="50px"></a>
-</div>
-</center>
-</body></html>
+		<div class = "tabContent" id = "main_intro">
+			<h2>Hello DBC!<br>My name is Austin</h2>
+			<div>
+				<p>Welcome to my website! My name is Austin, and over the course of the next several months I will be attending Dev Bootcamp, with the end goal of pursuing a career in web design. As a relative novice to the field, this will likely become more specific as I come to understand the industry.</p>
+			</div>
+		</div>
+		<div class = "tabContent" id = "projects">
+			<h2>Personal Projects</h2>
+			<div id = "tictactoe">
+		
+			</div>
+			<div id = "todolist">
+			
+			</div>
+		</div>
+
+		<div class = "tabContent" id = "blog">
+			<h2>Welcome to my blog!</h2>
+			<div class = "week">
+				<h2>April 13, 2014 | Inline vs. Block Elements</h2>
+				<h3>One time a p tag and a span tag were waiting to checkout at the grocery store. The p tag seemed to be in a giant hurry, and tried to cut the span tag. The span tag said: "No cutting, get inline!" to which the p tag responded: "stop it! You can't block me!"</h3>
+				<p>
+					Okay, painfully lame jokes aside, today's blog is all about the difference between inline and block elements. <a href = "http://www.htmlhelp.com/reference/html40/inline.html">Some elements</a> are inline - they naturaly integrate themselves with the elements around them, while <a href = "http://www.htmlhelp.com/reference/html40/block.html">others</a> are block elements -  they are separated out from the other items on the page nearby.
+				</p>
+			</div>
+
+			<div class = "week">
+				<h2>April 20, 2014 | The Rise of Javascript On the Internet</h2>
+				<h3>This week I'm looking deeper into why Javascript has rose to such prominence and importance in the web development world
+				</h3>
+				<p><em>1. It's efficient and powerful!</em> It's not necessary for data to be pulled from a server for Javascript to be run, like standard HTML and CSS requires. Running this standard programming language is as simple as refreshing the web page you're on.</p>
+				<p><em>2. It's an object oriented language!</em> Because of this, we developers can manipulate it to access the individual HTML objects (tags) on a page. As I continue to use javascript going forward, and having a decent amount of back-end programming experience, I can see how this could become incredibly powerful.
+				</p>
+				<p><em>3. Javascript's popularity and ubiquity</em> means that you're highly unlikely to run across browser that does not support its functionailty.</p>
+			</div>
+
+			<div class = "week">
+				<h2>April 24, 2014 | The Map Method</h2>
+				<h3>A look into it's use and syntax!</h3>
+
+				<p><em>The map method is, like most everything in Ruby, designed to simplify an otherwise lengthy program into a flexible and efficient tool.</em> When used correctly and on the appropriate object class, the map method returns the result of performing a specified function across all items within a given object. The method is enherently <em>non-destructive</em>, meaning it does not alter the original object passed to it. However, its "bang method" twin ("map!") is destructive, meaning that not only does calling map on a object return the result of mapping the object, but it also reassigns the value of that object.</p>
+				<p><em>Syntax.</em> Map Method syntax is <em>really</em> straightforward:</p>
+
+				<div class = "example">object.map{|x| x**2}<br>
+					<p>This is a basic structure of the map method. An array or hash object is passed to map, which applies the given function (in this case x-squared) upon each item stored within it. It then returns an array containing the newly-created values.</p>
+					<p>For example:</p>
+					<p>>>  [1,2,3,4,5,6,7,8,9,10].map{|x| x**2}<br>
+						=>  [1,4,9,16,25,36,49,64,81,100]
+					</p>
+				</div>
+			</div>
+
+			<div class = "week">
+				<h2>May 2, 2014 | Classes and Variable Scope</h2>
+				<h3>An object-oriented hat trick!</h3>
+				<p>As a still novice developer, one of the most confusing subjects I've encountered has been the idea of scope. Specifically, how scope differs for global, class, and instance variables can be incredibly confusing. A variable's scope determines where in a program that variable is accessible.</p>
+				<p>A fellow cohort mate of mine, <a href = "scottjason/github.io">Mr. Scott Jason</a>, mentioned <a href ="http://www.quora.com/Object-Oriented-Programming/What-is-object-oriented-programming">an interview</a> where none other than Steve Jobs was asked to explain object-oriented programming in simple terms:</p><blockquote>Objects are like people. They're living, breathing things that have knowledge inside them about how to do things and have memory inside them so they can remember things. And rather than interacting with them at a very low level, you interact with them at a very high level of abstraction, like we're doing right here."</blockquote>
+				<p>Ruby is built as an object oriented language: it is set up in such a way so that classes and objects do much of the work. They contain values, perform functions, and return to you the value of these functions at the drop of a hat.</p>
+				<p>As a Ruby developer, it is therefore necessary to understand objects and their classes, and how they interact with certain variables. Below I provide examples of instance, class, and global variables in the context of a soccer team:</p>
+				<div class = "example">
+					<p>A soccer team is made up of 11 players. There are many attributes associated with a unique soccer team, and many associated specifically associated with the individual players. Furthermore, there are additional attributes associated with all soccer teams. Let's model this out in Ruby:</p>
+					<a href="http://s28.postimg.org/6xkeurmdp/soccer.png"><img src="unit1_projects/soccer.png" id = "ex_pic"></a>
+				</div>
+				<p>Certain variables we want to remain constant across all instances of the Chelsea class, such as the team's roster, mascot, and captain. We wouldn't want John Terry's and Petr Cech's captain to be different! Other variables need to be specific to the object being called. We couldn't have number be a class variable, or else every time a new Chelsea player was created, all member's of the team would have their number switched to this new player's number. Lastly, some variables, like the number of players on the pitch, aren't local to a particular class (not just Chelsea are limited to 11 men on the field!)</p>
+			</div>
+
+			<div class = "week">
+				<h2>May 7, 2014 | Functional vs Object-Oriented Programming</h2>
+				<h3>Comparing the paradigms through the Ruby perpective</h3>
+
+				<p>This week's blog seeks to describe two of the most common frameworks through which developers have styled their code through research and examples using the context of Ruby.</p>
+
+				<p>Functional programming borrows much from its name. It seeks to solve problems and create solutions through the computation of mathematical functions. These functions are meant to create output while relying solely on the input passed into the functions themselves. Functional programming avoids involving state or changeable data, once again relying solely on inputs given to the function to create the output.</p>
+
+				<div class = "example">Functional<br>
+					<a href="http://s29.postimg.org/5kghcssiv/functionalexample.png"><img src="unit1_projects/functionalexample.png" id = "ex_pic"></a>
+				</div>
+
+				<p>Object-oriented (or Imperative) programming seeks describe the world as an environment containing objects, each of which have individual or shared characteristics. These characteristics collectively compose the objects mutable state. Output is then created by returning the required values of individual properties of </p>
+
+				<div class = "example">OOP<br>
+					<a href="http://s16.postimg.org/jjaxzqifp/OOPexample.png"><img src="unit1_projects/OOPexample.png" id = "ex_pic"></a>
+				</div>
+
+			</div>
+		</div>
+		<div class = "tabContent" id = "contact">
+		<h2>Contacts</h2>
+			<a href="https://www.facebook.com/austin.bourdier"><img src ="unit1_projects/fb.png" width="50px" height="50px"></a>
+			<a href="https://github.com/austin809"><img src ="unit1_projects/github.png" width="50px" height="50px"></a>
+			<a href="https://twitter.com/AustinBourdier"><img src ="unit1_projects/twitter.png" width="50px" height="50px"></a>
+			<a href="https://www.linkedin.com/profile/view?id=318778454&trk=nav_responsive_tab_profile"><img src ="unit1_projects/linkedin.png" width="50px" height="50px"></a>
+		</div>
+	</div>
+</body>
+</html>
