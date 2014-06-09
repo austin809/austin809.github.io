@@ -1,12 +1,40 @@
 $(document).ready(function(){
 
-	var intro = $("#intro");
+
+	var intro = $("#main_intro");
 	var projects = $("#projects");
 	var blog = $("#blog");
 	var contact = $("#contact");
-	alert("passed");
+	
 
-	if (contact.hasClass("tabbed") == false){
+	$(link).hover(function(){
+		$(link).animate({height: "50px"}, {duration:'slow', queue: false});
+		$(link).animate({width: "300px"}, {duration:'slow', queue: false});
+		$("#link img").animate({width: "50px"}, {duration:'slow', queue: false});
+		$("#link img").animate({height: "50px"}, {duration:'slow', queue: false});
+		$("#link").css("background-color", "#B25E24");
+		
+	},
+	function(){
+		$(link).animate({height: "30px"}, {duration: 'slow', queue: false});
+		$(link).animate({width: "150px"}, {duration: 'slow', queue: false});
+		$("#link img").animate({width: "20px"}, {duration:'slow', queue: false});
+		$("#link img").animate({height: "20px"}, {duration:'slow', queue: false});
+		$("#link").css("background-color", "#FF7819");
+
+	})
+
+
+	if (intro.hasClass("tabbed") == true){
+		alert("passed");
+	}
+	if (projects.hasClass("tabbed") == true){
+		alert("passed");
+	}
+	if (blog.hasClass("tabbed") == true){
+		alert("passed");
+	}
+	if (contact.hasClass("tabbed") == true){
 		alert("passed");
 	}
 
