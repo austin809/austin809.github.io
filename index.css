@@ -57,7 +57,7 @@ p{
 	width: 50%;
 	display: inline-block;
 	position: fixed;
-	left: 250px;
+	right
 	margin: 0;
 	padding: 0;
 	top: 20px;
@@ -106,7 +106,6 @@ p{
 }
 
 #tabs{
-	width: 60%;
 	position: relative;
 	padding: 0;
 	margin: 0;
@@ -135,6 +134,3 @@ ul#tabs li a.selected { color: #000; background-color: #FF6900; font-weight: bol
 div.tabContent { border: 1px solid #c9c3ba; padding: 0.25em; background-color: #f1f0ee; }
 div.tabContent.hide { display: none; }
 
-#tab{
-	width: 65px;
-}

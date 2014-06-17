@@ -17,12 +17,13 @@ $(document).ready(function(){
 	},
 	function(){
 		$(link).animate({height: "30px"}, {duration: 'slow', queue: false});
-		$(link).animate({width: "150px"}, {duration: 'slow', queue: false});
+		$(link).animate({width: "130px"}, {duration: 'slow', queue: false});
 		$("#link img").animate({width: "20px"}, {duration:'slow', queue: false});
 		$("#link img").animate({height: "20px"}, {duration:'slow', queue: false});
 		$("#link").css("background-color", "#FF7819");
 
 	})
+
 
 
 	if (intro.hasClass("tabbed") == true){
