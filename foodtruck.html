@@ -12,15 +12,52 @@
       }
     </style>
     <script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyCu1BIUdPOpxaX7xjWRwTEW0BnC7BVdJ7c&sensor=true.exp"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
     <script>
 var map;
-function initialize() {
-  var mapOptions = {
-    zoom: 8,
-    center: new google.maps.LatLng(-34.397, 150.644)
+var infowindow;
+
+function initialize()  
+if (navigator.geolocation) {
+     navigator.geolocation.getCurrentPosition(function (position) {
+         initialLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+         map.setCenter(initialLocation);
+     });
+ }
+  map = new google.maps.Map(document.getElementById('map-canvas'), {
+    center: initialLocation,
+    zoom: 12
+  });
+
+  var request = {
+    location: initialLocation,
+    radius: 5000,
+    types: ['atm']
   };
-  map = new google.maps.Map(document.getElementById('map-canvas'),
-      mapOptions);
+  infowindow = new google.maps.InfoWindow();
+  var service = new google.maps.places.PlacesService(map);
+  service.nearbySearch(request, callback);
+}
+
+function callback(results, status) {
+  if (status == google.maps.places.PlacesServiceStatus.OK) {
+    for (var i = 0; i < results.length; i++) {
+      createMarker(results[i]);
+    }
+  }
+}
+
+function createMarker(place) {
+  var placeLoc = place.geometry.location;
+  var marker = new google.maps.Marker({
+    map: map,
+    position: place.geometry.location
+  });
+
+  google.maps.event.addListener(marker, 'click', function() {
+    infowindow.setContent(place.name);
+    infowindow.open(map, this);
+  });
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
