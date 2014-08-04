@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="blog_template.css">
+	<link href='http://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<h1>Welcome to my blog!</h1>
+	<div id = "week1">
+	<h2>April 13, 2014 | Inline vs. Block Elements</h2>
+	<h3>One time a p tag and a span tag were waiting to checkout at the grocery store. The p tag seemed to be in a giant hurry, and tried to cut the span tag. The span tag said: "No cutting, get inline!" to which the p tag responded: "stop it! You can't block me!"</h3>
+
+	<p>
+	Okay, painfully lame jokes aside, today's blog is all about the difference between inline and block elements. <a href = "http://www.htmlhelp.com/reference/html40/inline.html">Some elements</a> are inline - they naturaly integrate themselves with the elements around them, while <a href = "http://www.htmlhelp.com/reference/html40/block.html">others</a> are block elements -  they are separated out from the other items on the page nearby.
+	</p>
+	</div>
+
+	<div id = "week2">
+	<h2>April 20, 2014 | The Rise of Javascript On the Internet</h2>
+	<h3>This week I'm looking deeper into why Javascript has rose to such prominence and importance in the web development world
+	</h3>
+
+	<p><em>1. It's efficient and powerful!</em> It's not necessary for data to be pulled from a server for Javascript to be run, like standard HTML and CSS requires. Running this standard programming language is as simple as refreshing the web page you're on.</p>
+	<p><em>2. It's an object oriented language!</em> Because of this, we developers can manipulate it to access the individual HTML objects (tags) on a page. As I continue to use javascript going forward, and having a decent amount of back-end programming experience, I can see how this could become incredibly powerful.
+	</p>
+	<p><em>3. It's popularity and ubiquity</em> means that you're highly unlikely to run across browser that does not support its functionailty.</p>
+	</div>
+
+
+	<div id = "week3">
+	<h2>April 24, 2014 | The Map Method</h2>
+	<h3>A look into it's use and syntax!</h3>
+
+	<p><em>The map method is, like most everything in Ruby, designed to simplify an otherwise lengthy program into a flexible and efficient tool.</em> When used correctly and on the appropriate object class, the map method returns the result of performing a specified function across all items within a given object. The method is enherently <em>non-destructive</em>, meaning it does not alter the original object passed to it. However, its "bang method" twin ("map!") is destructive, meaning that not only does calling map on a object return the result of mapping the object, but it also reassigns the value of that object.</p>
+	<p><em>Syntax.</em> Map Method syntax is <em>really</em> straightforward:</p>
+
+	<div id = "map_syntax">object.map{|x| x**2}<br>
+	<p>This is a basic structure of the map method. An array or hash object is passed to map, which applies the given function (in this case x-squared) upon each item stored within it. It then returns an array containing the newly-created values.</p>
+	<p>For example:</p>
+	<p>>>  [1,2,3,4,5,6,7,8,9,10].map{|x| x**2}<br>
+	=>  [1,4,9,16,25,36,49,64,81,100]
+	</p>
+
+	</div>
+	
+	</div>
+</body>
+</html>

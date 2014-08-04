@@ -1,0 +1,56 @@
+#header, #sidebar{
+border: 3px solid;
+font-size: 10px;
+text-align: center;
+}
+
+#header{
+top: 10px;
+height: 60px;
+width: 95%;
+position: absolute;
+}
+
+#sidebar{
+height: 500px;
+width: 15%;
+margin-top: auto;
+margin-bottom: auto;
+float: left;
+}
+
+#footer{
+top: 15px;
+width: 80%;
+border: 1px solid;
+padding: 10px;
+font-weight: bold;
+text-transform: uppercase;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+}
+
+#content{
+width: 80%;
+border: 3px dashed;
+padding: 10px;
+margin-top: 100px;
+position: right;
+margin-right: 0px;
+left: 15%;
+}
+
+#deadmau5{
+max-height: 150px;
+max-width: 200px;
+height: 120px;
+width: 160px;
+padding-bottom: 20px;
+}
+
+a:link{color: #3224ff;}
+a:visited{color: black;}
+a:hover{color: brown;}
+a:active{color: red;}
