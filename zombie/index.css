@@ -1,0 +1,46 @@
+html{margin: 0;padding: 0}
+body{margin: 0;padding: 0}
+
+.snake{
+    display: inline-block;
+    position: fixed;
+    top: 150px;
+    left: 150px;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+
+.food{
+    display: inline-block;
+    position: fixed;
+    top: 400px;
+    left: 400px;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+}
+
+.enemy{
+    display: inline-block;
+    position: fixed;
+    top: 150px;
+    left: 200px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+#board{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 500px;
+    height: 500px;
+    border: black 1px solid;
+}
+
+.scoreBoard{
+    left: 150px;
+    text-align:
+}
