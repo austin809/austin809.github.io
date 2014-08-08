@@ -1,12 +1,29 @@
-.week, #main_intro{
-	background-color: #FFB100;
+#navform{
+	float: right;
+	right: 0;
+	margin: 0;
+}
 
+#video-container {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+video {
+	top: 0;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -11;
 }
 
 
 body{
-
-	background-color: #68CAD1;
+	backgrozund-color: orange;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -17,10 +34,10 @@ body{
 }
 #pic{
 
-	width: 100%;
-	border-radius: 50%;
+	width: 55%;
+	border-radius: 20%;
 	text-align: center;
-
+	margin: 1em;
 }
 
 h2, h3 {
@@ -33,22 +50,24 @@ li {
 	text-align: left;
 }
 p{
-	
+
 	text-align: center;
 }
 
 #piccell{
-	width: 200px;
-	height: 100%;
-	top: 0;
-	text-align: center;
-	display: inline-block;
-	float: left;
-	z-index: 1;
-	left: 0;
-	position: fixed;
-	background-color: #B25E24;
-	padding: 1em;
+	width: 30%;
+	height: 340px;
+	top: 30%;
+	left: 35%;
+	margin: auto;
+
+	/*display: inline-block;*/
+	/*float: left;*/
+	/*z-index: 1;*/
+	/*left: 0;*/
+	position: absolute;
+	/*background-color: #B25E24;*/
+	/*padding: 1em;*/
 }
 
 #title{
@@ -117,7 +136,7 @@ p{
 blockquote{
 	border: dashed .125em;
 	margin-left: 20%;
-	margin-right: 5%; 
+	margin-right: 5%;
 	text-align: left;
 	padding-left: 1em;
 }
@@ -134,3 +153,14 @@ ul#tabs li a.selected { color: #000; background-color: #FF6900; font-weight: bol
 div.tabContent { border: 1px solid #c9c3ba; padding: 0.25em; background-color: #f1f0ee; }
 div.tabContent.hide { display: none; }
 
+.navbar, .navbar-default{
+	margin: 0;
+	padding: 0;
+	bottom:0;
+	z-index: 100;
+	position: static;
+}
+
+#mainNav{
+	margin: 0;
+}
