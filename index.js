@@ -7,8 +7,6 @@ $(document).ready(function(){
 	var contact = $("#contact");
 
 
-
-
 	if (intro.hasClass("tabbed") == true){
 		alert("passed");
 	}
